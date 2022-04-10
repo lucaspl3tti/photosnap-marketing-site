@@ -154,67 +154,67 @@ export const websiteData = {
     },
     'featuresPage': {
         'header': {
-            'headline': '',
-            'copy': '',
+            'headline': 'Features',
+            'copy': 'We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.',
             'image': '',
         },
         'features': {
             1: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': '100% Responsive',
+                'copy': 'No matter which the device you\'re on, our site is fully responsive and stories look beautiful on any screen.',
             },
             2: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': 'No Photo Upload Limit',
+                'copy': 'Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.',
             },
             3: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': 'Available to Embed',
+                'copy': 'Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.',
             },
             4: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': 'Custom Domain',
+                'copy': 'With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!',
             },
             5: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': 'Boost Your Exposure',
+                'copy': 'Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.',
             },
             6: {
                 'icon': '',
-                'heading': '',
-                'copy': '',
+                'heading': 'Drag & Drop Image',
+                'copy': 'Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.',
             },
         },
     },
     'pricingPage': {
         'header': {
-            'headline': '',
-            'copy': '',
+            'headline': 'Pricing',
+            'copy': 'Create a your stories, Photosnap is a platform for photographers and visual storytellers. It\'s the simple way to create and share your photos.',
             'image': '',
         },
         'memberships': {
             'basic': {
-                'title': '',
-                'description': '',
-                'priceMonthly': '',
-                'priceYearly': '',
+                'title': 'Basic',
+                'description': 'Includes basic usage of our platform. Recommended for new and aspiring photographers.',
+                'priceMonthly': '19.00',
+                'priceYearly': '190.00',
             },
             'pro': {
-                'title': '',
-                'description': '',
-                'priceMonthly': '',
-                'priceYearly': '',
+                'title': 'Pro',
+                'description': 'More advanced features available. Recommended for photography veterans and professionals.',
+                'priceMonthly': '39.00',
+                'priceYearly': '390.00',
             },
             'business': {
-                'title': '',
-                'description': '',
-                'priceMonthly': '',
-                'priceYearly': '',
+                'title': 'Business',
+                'description': 'Additional features available such as more detailed metrics. Recommended for business owners.',
+                'priceMonthly': '99.00',
+                'priceYearly': '990.00',
             },
         },
         'comparison': {
@@ -278,25 +278,25 @@ export const websiteData = {
         'socialIcons': {
             'facebook': {
                 'icon': '',
-                'href': '',
+                'href': 'javascript:void(0)',
             },
             'youtube': {
                 'icon': '',
-                'href': '',
+                'href': 'javascript:void(0)',
             },
             'twitter': {
                 'icon': '',
-                'href': '',
+                'href': 'javascript:void(0)',
             },
             'pinterest': {
                 'icon': '',
-                'href': '',
+                'href': 'javascript:void(0)',
             },
             'instagram': {
                 'icon': '',
-                'href': '',
+                'href': 'javascript:void(0)',
             },
         },
-        'copyright': 'Copyright 2022. All Rights Reserved',
+        'copyright': 'Copyright 2019. All Rights Reserved',
     },
 }

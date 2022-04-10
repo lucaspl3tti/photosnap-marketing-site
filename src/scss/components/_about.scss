@@ -1,0 +1,168 @@
+.about {
+    .information-wrapper {
+        display: grid;
+
+        .text-wrapper {
+            padding: 75px 35px;
+        }
+
+        .information__heading,
+        .information__copy {
+            margin-bottom: 20px;
+        }
+
+        .information__copy {
+            opacity: .6;
+        }
+
+        .information__link {
+            color: $color-text;
+            font-size: $font-size-smaller;
+            font-weight: $font-weight-bold;
+
+            .link__icon {
+                margin-left: 20px;
+            }
+        }
+
+        .image-wrapper {
+            order: -1;
+        }
+
+        &--first {
+            .text-wrapper {
+                position: relative;
+                background-color: $color-body-dark;
+                color: $color-text-light;
+
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    width: 34.133%;
+                    height: 6px;
+                    background: linear-gradient(to right top, #FFC593, #BC7198 55%, #5A77FF);
+                }
+            }
+
+            .information__heading {
+                .heading {
+                    color: $color-text-light;
+                }
+            }
+
+            .information__link {
+                color: $color-text-light;
+
+                .hover-underline {
+                    &::after {
+                        background-color: $color-text-light;
+                    }
+                }
+
+                .link__icon > svg > g {
+                    stroke: $color-text-light;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .about {
+        .information-wrapper {
+            grid-template-columns: 35.546% 28.908% 35.546%;
+            grid-template-rows: 600px;
+
+            .text-wrapper {
+                grid-column: 1/3;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                padding: 75px 55px;
+            }
+
+            .image-wrapper {
+                grid-column: 3/4;
+            }
+
+            .information__image {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .information__link {
+                .link__icon > svg {
+                    transform: translateX(0);
+                    transition: transform $animation-speed;
+                }
+
+                &:hover {
+                    .link__icon > svg {
+                        transform: translateX(8px);
+                    }
+                }
+            }
+
+            &--first,
+            &--third {
+                .image-wrapper {
+                    order: 2;
+                }
+            }
+
+            &--first {
+                // height: 650px;
+                grid-template-rows: 650px;
+
+                .text-wrapper {
+                    &::before {
+                        top: auto;
+                        left: 0;
+                        width: 6px;
+                        height: 46.77%;
+                        background: linear-gradient(to right top, #FFC593, #BC7198 55%, #5A77FF);
+                    }
+                }
+            }
+
+            &--second {
+                .text-wrapper {
+                    grid-column: 2/4;
+                }
+
+                .image-wrapper {
+                    grid-column: 1/2;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .about {
+        .information-wrapper {
+            grid-template-columns: 42.361% 15.278% 42.361%;
+
+            .text-wrapper {
+                grid-column: 1/2;
+            }
+
+            .image-wrapper {
+                grid-column: 2/4;
+            }
+
+            &--second {
+                .text-wrapper {
+                    grid-column: 3/4;
+                }
+
+                .image-wrapper {
+                    grid-column: 1/3;
+                }
+            }
+        }
+    }
+}
