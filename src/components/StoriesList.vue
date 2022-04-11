@@ -15,7 +15,6 @@ export default {
     components: {
         ArrowRight,
     },
-    methods: {},
 }
 </script>
 

@@ -24,22 +24,32 @@ h5 {
 
 h1 {
     font-size: $font-size-h1-mobile;
+    line-height: 48px;
+    letter-spacing: 4.17px;
 }
 
 h2 {
     font-size: $font-size-h2-mobile;
+    line-height: 25px;
+    letter-spacing: 0;
 }
 
 h3 {
     font-size: $font-size-h3-mobile;
+    line-height: 25px;
+    letter-spacing: 0;
 }
 
 h4 {
     font-size: $font-size-h4-mobile;
+    line-height: 16px;
+    letter-spacing: 2px;
 }
 
 h5 {
     font-size: $font-size-h5-mobile;
+    line-height: 16px;
+    letter-spacing: 2px;
 }
 
 ul {
@@ -56,10 +66,31 @@ a {
     }
 }
 
-.btn-primary {
-    &:hover {
-        background-color: $color-secondary;
-        border-color: $color-secondary;
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: 1px solid $color-body-dark;
+    background-color: transparent;
+    padding: 0;
+    color: $color-text;
+    font-size: $font-size-normal-mobile;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+
+    &-primary {
+        border: 0;
+        background-color: $color-body-dark;
+        color: $color-text-light;
+
+        &:hover {
+            background-color: $color-gray-100;
+            color: $color-text;
+        }
     }
 }
 
@@ -73,7 +104,8 @@ img {
     padding: 0 5%;
 }
 
-.hover-underline {
+.hover-underline,
+.hover-underline--light {
     display: inline-block;
     position: relative;
     margin-bottom: 0;
@@ -92,8 +124,16 @@ img {
     }
 }
 
+.hover-underline--light {
+    &::after {
+        background-color: $color-text-light;
+    }
+}
+
+
 @include media-breakpoint-up(md) {
-    .hover-underline {
+    .hover-underline,
+    .hover-underline--light {
         &:hover {
             &::after {
                 transform: scaleX(1);

@@ -11,8 +11,6 @@ export default {
             features: data.featuresPage.features,
         };
     },
-    components: {},
-    methods: {},
 }
 </script>
 
