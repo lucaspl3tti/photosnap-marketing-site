@@ -30,7 +30,7 @@ export default {
 
                 <div class="beta__link-wrapper">
                     <a class="beta__link" :href="betaContent.href">
-                        <span class="link__text">Get an Invite</span>
+                        <span class="link__text hover-underline--light">Get an Invite</span>
                         <span class="link__icon">
                             <ArrowRight />
                         </span>

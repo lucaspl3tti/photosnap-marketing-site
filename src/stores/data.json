@@ -23,7 +23,7 @@
             "heading": "Create and share your photo Stories",
             "copy": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
             "link": "Get an invite",
-            "href": "javascript:void(0)",
+            "href": "/",
             "image": "./images/home/desktop/create-and-share.jpg",
             "class": "introduction",
             "wrapperClass": "information-wrapper--first"
@@ -32,7 +32,7 @@
             "heading": "Beautiful stories every time",
             "copy": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
             "link": "View the stories",
-            "href": "javascript:void(0)",
+            "href": "/stories",
             "image": "./images/home/desktop/beautiful-stories.jpg",
             "class": "templates",
             "wrapperClass": "information-wrapper--second"
@@ -41,7 +41,7 @@
             "heading": "Designed for everyone",
             "copy": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.",
             "link": "View the stories",
-            "href": "javascript:void(0)",
+            "href": "/stories",
             "image": "./images/home/desktop/designed-for-everyone.jpg",
             "class": "audience",
             "wrapperClass": "information-wrapper--third"

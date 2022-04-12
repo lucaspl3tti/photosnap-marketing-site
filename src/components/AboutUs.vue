@@ -30,12 +30,12 @@ export default {
                     <p>{{ information.copy }}</p>
                 </div>
                 <div class="information__link-wrapper">
-                    <a :href="information.href" target="_blank" rel="noopener noreferrer" class="information__link">
+                    <RouterLink :to="information.href" class="information__link">
                         <span class="link__text hover-underline">{{ information.link }}</span>
                         <span class="link__icon">
                             <ArrowRight />
                         </span>
-                    </a>
+                    </RouterLink>
                 </div>
             </div>
 
