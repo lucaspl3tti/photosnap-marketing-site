@@ -29,7 +29,16 @@
 @include media-breakpoint-up(md) {
     .features {
         &-container {
-            padding: 120px 80px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 75px 30px;
+            justify-content: space-between;
+            padding: 120px 0;
+        }
+
+        .feature {
+            &-wrapper {
+                max-width: 350px;
+            }
         }
     }
 }
@@ -40,14 +49,6 @@
             grid-template-columns: repeat(3, 350px);
             grid-template-rows: 236px;
             gap: 100px 0;
-            justify-content: space-between;
-            padding: 120px 0;
-        }
-
-        .feature {
-            &-wrapper {
-                max-width: 350px;
-            }
         }
     }
 }

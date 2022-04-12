@@ -29,70 +29,72 @@ export default {
 </script>
 
 <template>
-    <footer class="container-fluid footer" id="footer">
-        <div class="footer-left">
-            <div class="footer__logo">
-                <WebsiteLogo />
-            </div>
+    <footer class="footer" id="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer__logo">
+                    <WebsiteLogo />
+                </div>
 
-            <div class="footer__social social-list">
-                <a :href="socialIcons.facebook.href" class="social-icon social-icon--facebook">
-                    <IconFacebook />
-                </a>
+                <div class="footer__social social-list">
+                    <a :href="socialIcons.facebook.href" class="social-icon social-icon--facebook">
+                        <IconFacebook />
+                    </a>
 
-                <a :href="socialIcons.youtube.href" class="social-icon social-icon--youtube">
-                    <IconYoutube />
-                </a>
+                    <a :href="socialIcons.youtube.href" class="social-icon social-icon--youtube">
+                        <IconYoutube />
+                    </a>
 
-                <a :href="socialIcons.twitter.href" class="social-icon social-icon--twitter">
-                    <IconTwitter />
-                </a>
+                    <a :href="socialIcons.twitter.href" class="social-icon social-icon--twitter">
+                        <IconTwitter />
+                    </a>
 
-                <a :href="socialIcons.pinterest.href" class="social-icon social-icon--pinterest">
-                    <IconPinterest />
-                </a>
+                    <a :href="socialIcons.pinterest.href" class="social-icon social-icon--pinterest">
+                        <IconPinterest />
+                    </a>
 
-                <a :href="socialIcons.instagram.href" class="social-icon social-icon--instagram">
-                    <IconInstagram />
-                </a>
-            </div>
+                    <a :href="socialIcons.instagram.href" class="social-icon social-icon--instagram">
+                        <IconInstagram />
+                    </a>
+                </div>
 
-            <div class="footer__navigation">
-                <ul class="footer-nav__container">
-                    <li class="footer-nav__item">
-                        <RouterLink :to="navigation.root" class="footer-nav__link footer-nav__link--home">
-                            {{ navigation.rootTitle }}
-                        </RouterLink>
-                    </li>
-                    <li
-                        v-for="(navItem, key) in navigation.navItems"
-                        :key="key"
-                        class="footer-nav__item"
-                    >
-                        <RouterLink
-                            :to="navItem.href"
-                            class="footer-nav__link"
-                            :class="['footer-nav__link--' + key]"
+                <div class="footer__navigation">
+                    <ul class="footer-nav__container">
+                        <li class="footer-nav__item">
+                            <RouterLink :to="navigation.root" class="footer-nav__link footer-nav__link--home">
+                                {{ navigation.rootTitle }}
+                            </RouterLink>
+                        </li>
+                        <li
+                            v-for="(navItem, key) in navigation.navItems"
+                            :key="key"
+                            class="footer-nav__item"
                         >
-                            {{ navItem.title }}
-                        </RouterLink>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <div class="footer__invite">
-                <a :href="footer.inviteHref" class="invite-link">
-                    <span class="link__text hover-underline--light">Get an invite</span>
-                    <span class="link__icon">
-                        <ArrowRight />
-                    </span>
-                </a>
+                            <RouterLink
+                                :to="navItem.href"
+                                class="footer-nav__link"
+                                :class="['footer-nav__link--' + key]"
+                            >
+                                {{ navItem.title }}
+                            </RouterLink>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="footer__copyright">
-                <p>{{ footer.copyright }}</p>
+            <div class="footer-right">
+                <div class="footer__invite">
+                    <a :href="footer.inviteHref" class="invite-link">
+                        <span class="link__text hover-underline--light">Get an invite</span>
+                        <span class="link__icon">
+                            <ArrowRight />
+                        </span>
+                    </a>
+                </div>
+
+                <div class="footer__copyright">
+                    <p>{{ footer.copyright }}</p>
+                </div>
             </div>
         </div>
     </footer>

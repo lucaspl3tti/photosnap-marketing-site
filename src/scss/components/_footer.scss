@@ -155,10 +155,13 @@
 
 @include media-breakpoint-up(md) {
     .footer {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
         padding: 65px 5%;
+
+        &-container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
 
         &-left {
             align-items: flex-start;

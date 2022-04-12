@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid" :class="wrapperClass">
+    <div class="container" :class="wrapperClass">
         <div class="features-container">
             <div
                 v-for="number of loopNumber"

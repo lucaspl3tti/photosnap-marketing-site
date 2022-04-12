@@ -14,39 +14,49 @@ body {
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3
 h4,
-h5 {
+.h4,
+h5,
+.h5 {
     color: $color-text;
     font-weight: $font-weight-bold;
 }
 
-h1 {
+h1,
+.h1 {
     font-size: $font-size-h1-mobile;
     line-height: 48px;
     letter-spacing: 4.17px;
 }
 
-h2 {
+h2,
+.h2 {
     font-size: $font-size-h2-mobile;
     line-height: 25px;
     letter-spacing: 0;
 }
 
-h3 {
+h3,
+.h3 {
     font-size: $font-size-h3-mobile;
     line-height: 25px;
     letter-spacing: 0;
 }
 
-h4 {
+h4,
+.h4 {
     font-size: $font-size-h4-mobile;
     line-height: 16px;
     letter-spacing: 2px;
 }
 
-h5 {
+h5,
+.h5 {
     font-size: $font-size-h5-mobile;
     line-height: 16px;
     letter-spacing: 2px;
@@ -86,7 +96,16 @@ a {
         border: 0;
         background-color: $color-body-dark;
         color: $color-text-light;
+    }
 
+    &-secondary {
+        border: 0;
+        background-color: $color-body;
+        color: $color-text;
+    }
+
+    &-primary,
+    &-secondary {
         &:hover {
             background-color: $color-gray-100;
             color: $color-text;
@@ -164,12 +183,26 @@ img {
         font-size: $font-size-h5;
     }
 
-    // main {
-    //     padding-top: 140px;
-    // }
-
     .container,
     .container-fluid {
         padding: 0 8%;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    .container {
+        max-width: 1660px;
+    }
+}
+
+@include media-breakpoint-up(3xl) {
+    .container {
+        max-width: 1920px;
     }
 }

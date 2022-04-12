@@ -37,7 +37,7 @@ export default {
 
 <template>
     <nav class="navbar navbar-expand-md navbar-light nav-container">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand mb-0 nav-logo" :href="navigation.root">
                 <NavLogo />
             </a>
@@ -52,9 +52,8 @@ export default {
                 aria-label="Toggle navigation"
                 @click="onClickNavToggler"
             >
-                <div class="collapse-menu-icon half start"></div>
-                <div class="collapse-menu-icon"></div>
-                <div class="collapse-menu-icon half end"></div>
+                <div class="collapse-menu-icon start"></div>
+                <div class="collapse-menu-icon end"></div>
             </button>
             <div
                 class="collapse navbar-collapse justify-content-end"
