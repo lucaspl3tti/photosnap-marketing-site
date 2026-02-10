@@ -1,0 +1,22 @@
+{
+  "root": "/",
+  "rootTitle": "Home",
+  "navItems": [
+    {
+      "id": "stories",
+      "title": "Stories",
+      "url": "/stories"
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "url": "/features"
+    },
+    {
+      "id": "pricing",
+      "title": "Pricing",
+      "url": "/pricing"
+    }
+  ],
+  "inviteBtn": "Get an invite"
+}

@@ -1,0 +1,43 @@
+{
+  "blocks": [
+    {
+      "id": "introduction",
+      "headline": "Create and share your photo Stories",
+      "copy": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
+      "link": {
+        "url": "/",
+        "text": "Get an invite"
+      },
+      "image": {
+        "url": "./images/home/desktop/create-and-share.jpg",
+        "alt": "Create and share"
+      }
+    },
+    {
+      "id": "storyTemplates",
+      "headline": "Beautiful stories every time",
+      "copy": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+      "link": {
+        "url": "/stories",
+        "text": "View the stories"
+      },
+      "image": {
+        "url": "./images/home/desktop/beautiful-stories.jpg",
+        "alt": "Beautiful stories"
+      }
+    },
+    {
+      "id": "audience",
+      "headline": "Designed for everyone",
+      "copy": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.",
+      "link": {
+        "url": "/stories",
+        "text": "View the stories"
+      },
+      "image": {
+        "url": "./images/home/desktop/designed-for-everyone.jpg",
+        "alt": "Designed for everyone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "header": {
+    "headline": "Pricing",
+    "copy": "Create a your stories, Photosnap is a platform for photographers and visual storytellers. It's the simple way to create and share your photos.",
+    "image": {
+      "url": "./images/pricing/mobile/hero.jpg",
+      "alt": "Hero Image Pricing",
+      "sources": [
+        {
+          "type": "desktop",
+          "url": "./images/pricing/desktop/hero.jpg"
+        }
+      ]
+    }
+  },
+  "memberships": [
+    {
+      "type": "basic",
+      "title": "Basic",
+      "copy": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+      "priceMonthly": "19.00",
+      "priceYearly": "190.00"
+    },
+    {
+      "type": "pro",
+      "title": "Pro",
+      "copy": "More advanced features available. Recommended for photography veterans and professionals.",
+      "priceMonthly": "39.00",
+      "priceYearly": "390.00"
+    },
+    {
+      "type": "business",
+      "title": "Business",
+      "copy": "Additional features available such as more detailed metrics. Recommended for business owners.",
+      "priceMonthly": "99.00",
+      "priceYearly": "990.00"
+    }
+  ],
+  "comparison": {
+    "features": [
+      {
+        "id": "unlimitedStoryPosting",
+        "title": "Unlimited Story Posting",
+        "basic": true,
+        "pro": true,
+        "business": true
+      },
+      {
+        "id": "unlimitedPhotoUpload",
+        "title": "Unlimited Photo Upload",
+        "basic": true,
+        "pro": true,
+        "business": true
+      },
+      {
+        "id": "customContent",
+        "title": "Embedding custom content",
+        "basic": false,
+        "pro": true,
+        "business": true
+      },
+      {
+        "id": "customizeMetaData",
+        "title": "Customize Meta Data",
+        "basic": false,
+        "pro": true,
+        "business": true
+      },
+      {
+        "id": "advancedMetrics",
+        "title": "Advanced Metrics",
+        "basic": false,
+        "pro": false,
+        "business": true
+      },
+      {
+        "id": "downloads",
+        "title": "Photo Downloads",
+        "basic": false,
+        "pro": false,
+        "business": true
+      },
+      {
+        "id": "seo",
+        "title": "Search Engine Index",
+        "basic": false,
+        "pro": false,
+        "business": true
+      },
+      {
+        "id": "customAnalytics",
+        "title": "Custom Analytics",
+        "basic": false,
+        "pro": false,
+        "business": true
+      }
+    ]
+  }
+}

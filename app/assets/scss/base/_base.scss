@@ -1,0 +1,167 @@
+/** general styling */
+@import 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap';
+
+body {
+    margin: 0;
+    background-color: $color-body;
+    color: $color-text;
+    font-family: $font-body;
+    font-size: $font-size-normal-mobile;
+}
+
+.page-content {
+    padding-top: 72px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3
+h4,
+.h4,
+h5,
+.h5 {
+    color: $color-text;
+    font-weight: $font-weight-bold;
+}
+
+h1,
+.h1 {
+    font-size: $font-size-h1-mobile;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+}
+
+h2,
+.h2 {
+    font-size: $font-size-h2-mobile;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+h3,
+.h3 {
+    font-size: $font-size-h3-mobile;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+h4,
+.h4 {
+    font-size: $font-size-h4-mobile;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+h5,
+.h5 {
+    font-size: $font-size-h5-mobile;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none !important;
+
+    &:hover {
+        color: $color-secondary;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container,
+.container-fluid {
+    padding: 0 spacing(7) !important;
+}
+
+.hover-underline,
+.underline {
+  position: relative;
+  margin-bottom: 0;
+  background-image: linear-gradient(currentColor, currentColor); // stylelint-disable-line value-keyword-case
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  text-decoration: none;
+  transition: background-size .3s;
+}
+
+.hover-underline {
+  background-position: 0% 100%;
+
+  &:hover,
+  &.show {
+    background-size: 100% 2px;
+  }
+}
+
+.underline {
+  background-size: 100% 2px;
+}
+
+
+@include media-breakpoint-up(md) {
+    .container,
+    .container-fluid {
+        padding: 0 spacing(11) !important;
+    }
+
+    .hover-underline,
+    .hover-underline--light {
+        &:hover {
+            &::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h1 {
+        font-size: $font-size-h1;
+    }
+
+    h2 {
+        font-size: $font-size-h2;
+    }
+
+    h3 {
+        font-size: $font-size-h3;
+    }
+
+    h4 {
+        font-size: $font-size-h4;
+    }
+
+    h5 {
+        font-size: $font-size-h5;
+    }
+
+    .container,
+    .container-fluid {
+        padding: 0 spacing(35) !important;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .container {
+        max-width: 1660px !important;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    .container {
+        max-width: 1920px !important;
+    }
+}

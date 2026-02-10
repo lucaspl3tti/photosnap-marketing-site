@@ -1,0 +1,48 @@
+{
+  "header": {
+    "headline": "Features",
+    "copy": "We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.",
+    "image": {
+      "url": "./images/features/mobile/hero.jpg",
+      "alt": "Hero Image Features",
+      "sources": [
+        {
+          "type": "desktop",
+          "url": "./images/features/desktop/hero.jpg"
+        }
+      ]
+    }
+  },
+  "features": [
+    {
+      "icon": "feature-responsive",
+      "headline": "100% Responsive",
+      "copy": "No matter which the device you\"re on, our site is fully responsive and stories look beautiful on any screen."
+    },
+    {
+      "icon": "feature-upload-limit",
+      "headline": "No Photo Upload Limit",
+      "copy": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+    },
+    {
+      "icon": "feature-embed",
+      "headline": "Available to Embed",
+      "copy": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+    },
+    {
+      "icon": "feature-custom-domain",
+      "headline": "Custom Domain",
+      "copy": "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!"
+    },
+    {
+      "icon": "feature-exposure",
+      "headline": "Boost Your Exposure",
+      "copy": "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list."
+    },
+    {
+      "icon": "feature-drag-drop",
+      "headline": "Drag & Drop Image",
+      "copy": "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories."
+    }
+  ]
+}

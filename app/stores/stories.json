@@ -1,0 +1,233 @@
+{
+  "header": {
+    "overline": "Last month's featured story",
+    "headline": "Hazy full moon of Appalachia",
+    "date": "March 2nd 2020",
+    "publishedBy": "John Appleseed",
+    "copy": "The dissected plateau area, while not actually made up of geological mountains, is popularly called \"mountains,\" especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+    "image": {
+      "url": "./images/stories/mobile/moon-of-appalacia.jpg",
+      "alt": "Hazy fuul moon of Appalachia",
+      "sources": [
+        {
+          "type": "desktop",
+          "url": "./images/stories/desktop/moon-of-appalacia.jpg"
+        }
+      ]
+    },
+    "link": {
+      "url": "javascript:void(0)",
+      "text": "Read the Story"
+    }
+  },
+  "stories": [
+    {
+      "date": "April 16th 2020",
+      "headline": "The Mountains",
+      "publishedBy": "John Appleseed",
+      "image": {
+        "url": "./images/stories/desktop/mountains.jpg",
+        "alt": "Mountains"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "April 14th 2020",
+      "headline": "Sunset Cityscapes",
+      "publishedBy": "Benjamin Cruz",
+      "image": {
+        "url": "./images/stories/desktop/cityscapes.jpg",
+        "alt": "City scapes"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "April 11th 2020",
+      "headline": "18 Days Voyage",
+      "publishedBy": "Alexei Borodin",
+      "image": {
+        "url": "./images/stories/desktop/18-days-voyage.jpg",
+        "alt": "18-days-voyage"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "April 9th 2020",
+      "headline": "Architecturals",
+      "publishedBy": "Samantha Brooke",
+      "image": {
+        "url": "./images/stories/desktop/architecturals.jpg",
+        "alt": "Architecturals"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "April 7th 2020",
+      "headline": "World Tour 2019",
+      "publishedBy": "Timothy Wagner",
+      "image": {
+        "url": "./images/stories/desktop/world-tour.jpg",
+        "alt": "World tour"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "April 3rd 2020",
+      "headline": "Unforeseen Corners",
+      "publishedBy": "William Malcolm",
+      "image": {
+        "url": "./images/stories/desktop/unforeseen-corners.jpg",
+        "alt": "Unforeseen corners"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 29th 2020",
+      "headline": "King on Africa: Part II",
+      "publishedBy": "Tim Hillenburg",
+      "image": {
+        "url": "./images/stories/desktop/king-on-africa.jpg",
+        "alt": "King on africa"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 21st 2020",
+      "headline": "The Trip to Nowhere",
+      "publishedBy": "Felicia Rourke",
+      "image": {
+        "url": "./images/stories/desktop/trip-to-nowhere.jpg",
+        "alt": "Trip to nowhere"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 19th 2020",
+      "headline": "Rage of The Sea",
+      "publishedBy": "Mohammed Abdul",
+      "image": {
+        "url": "./images/stories/desktop/rage-of-the-sea.jpg",
+        "alt": "Rage of the sea"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 16th 2020",
+      "headline": "Running Free",
+      "publishedBy": "Michelle",
+      "image": {
+        "url": "./images/stories/desktop/running-free.jpg",
+        "alt": "Running free"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 11th 2020",
+      "headline": "Behind the Waves",
+      "publishedBy": "Lamarr Wilson",
+      "image": {
+        "url": "./images/stories/desktop/behind-the-waves.jpg",
+        "alt": "Behind the waves"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 9th 2020",
+      "headline": "Calm Waters",
+      "publishedBy": "Samantha Brooke",
+      "image": {
+        "url": "./images/stories/desktop/calm-waters.jpg",
+        "alt": "Calm waters"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 5th 2020",
+      "headline": "The Milky Way",
+      "publishedBy": "Benjamin Cruz",
+      "image": {
+        "url": "./images/stories/desktop/milky-way.jpg",
+        "alt": "Milky way"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 4th 2020",
+      "headline": "Night at The Dark Forest",
+      "publishedBy": "Mohammed Abdul",
+      "image": {
+        "url": "./images/stories/desktop/dark-forest.jpg",
+        "alt": "Night at the dark forest"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "March 1st 2020",
+      "headline": "Somwarpet's Beauty",
+      "publishedBy": "Michelle",
+      "image": {
+        "url": "./images/stories/desktop/somwarpet.jpg",
+        "alt": "Somwarpet's beauty"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    },
+    {
+      "date": "February 25th 2020",
+      "headline": "Land of Dreams",
+      "publishedBy": "William Malcolm",
+      "image": {
+        "url": "./images/stories/desktop/land-of-dreams.jpg",
+        "alt": "Land of dreams"
+      },
+      "link": {
+        "url": "javascript:void(0)",
+        "text": "Read the Story"
+      }
+    }
+  ]
+}

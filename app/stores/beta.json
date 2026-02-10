@@ -1,0 +1,19 @@
+{
+  "beta": {
+    "headline": "We're in beta. Get your invite today!",
+    "image": {
+      "url": "./images/shared/mobile/bg-beta.jpg",
+      "alt": "Photosnap Beta",
+      "sources": [
+        {
+          "type": "desktop",
+          "url": "./images/shared/desktop/bg-beta.jpg"
+        }
+      ]
+    },
+    "link": {
+      "url": "javascript:void(0)",
+      "text": "Get an invite"
+    }
+  }
+}

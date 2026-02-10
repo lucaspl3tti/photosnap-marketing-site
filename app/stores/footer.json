@@ -1,0 +1,25 @@
+{
+  "socialItems": [
+    {
+      "name": "facebook",
+      "url": "javascript:void(0)"
+    },
+    {
+      "name": "youtube",
+      "url": "javascript:void(0)"
+    },
+    {
+      "name": "twitter",
+      "url": "javascript:void(0)"
+    },
+    {
+      "name": "pinterest",
+      "url": "javascript:void(0)"
+    },
+    {
+      "name": "instagram",
+      "url": "javascript:void(0)"
+    }
+  ],
+  "copyright": "Copyright 2019. All Rights Reserved"
+}
