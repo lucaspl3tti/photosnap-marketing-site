@@ -1,7 +1,7 @@
 {
-  "name": "photosnap-marketing-site_2026",
+  "name": "photosnap-marketing-website",
+  "version": "1.0.0",
   "type": "module",
-  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
